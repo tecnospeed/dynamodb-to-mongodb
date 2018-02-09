@@ -1,0 +1,19 @@
+{
+  "name": "dynamo-to-mongo",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@http://srv-gitlab.tecnospeed.local/bruno.prado/dynamo-to-mongo.git"
+  },
+
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.189.0",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.2",
+    "simplemongo": "git+http://srv-gitlab.tecnospeed.local/tecnospeed/simplemongo"
+  
+  }
+}
