@@ -1,19 +1,35 @@
 {
-  "name": "dynamo-to-mongo",
-  "description": "",
-  "version": "1.0.0",
+  "name": "dynamodb-to-mongodb",
+  "description": "Tool for migrating data from AWS DynamoDB to MongoDB.",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@http://srv-gitlab.tecnospeed.local/bruno.prado/dynamo-to-mongo.git"
+    "url": "git+https://github.com/tecnospeed/dynamodb-to-mongodb.git"
   },
-
   "dependencies": {
     "async": "^2.6.0",
     "aws-sdk": "^2.189.0",
     "moment": "^2.20.1",
     "mongodb": "^3.0.2",
-    "simplemongo": "git+http://srv-gitlab.tecnospeed.local/tecnospeed/simplemongo"
-  
+    "mongodb-single-client": "0.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "dynamodb",
+    "dynamo",
+    "mongodb",
+    "mongo",
+    "migration",
+    "nodejs",
+    "node"
+  ],
+  "author": "Bruno Cavalcanti <bruno.prado@tecnospeed.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.2.2",
+    "prettier-standard": "^8.0.0"
   }
 }
