@@ -29,7 +29,7 @@
   "author": "Bruno Cavalcanti <bruno.prado@tecnospeed.com.br>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^22.2.2",
-    "prettier-standard": "^8.0.0"
+    "jest": "^22.4.4",
+    "prettier-standard": "^8.0.1"
   }
 }
